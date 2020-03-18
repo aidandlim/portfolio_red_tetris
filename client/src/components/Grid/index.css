@@ -1,0 +1,39 @@
+.grid {
+    width: 10%;
+    height: 5%;
+
+    position: relative;
+    float: left;
+    top: -20%;
+
+    border: solid #222222 0.05rem;
+    box-sizing: border-box;
+}
+
+.grid-red {
+    background-color: #FF5252;
+}
+
+.grid-orange {
+    background-color: #FFAB40;
+}
+
+.grid-yellow {
+    background-color: #FFD740;
+}
+
+.grid-green {
+    background-color: #69F0AE;
+}
+
+.grid-blue {
+    background-color: #40C4FF;
+}
+
+.grid-navy {
+    background-color: #536DFE;
+}
+
+.grid-purple {
+    background-color: #7C4DFF;
+}

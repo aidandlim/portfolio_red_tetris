@@ -1,0 +1,17 @@
+.room {
+    width: calc(20vw - 10rem / 5);
+    height: calc(20vw - 10rem / 5);
+
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    position: relative;
+    float: left;
+
+    background-color: #222222;
+    border-radius: 1rem;
+}
+
+.room:nth-child(5n) {
+    margin-right: 0;
+}
