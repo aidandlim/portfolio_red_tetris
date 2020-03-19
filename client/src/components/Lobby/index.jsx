@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 
-import Room from '../Room';
+import RoomInfo from '../RoomInfo';
 
 import { getRoomList } from '../../data';
 
@@ -23,7 +23,7 @@ const Lobby = () => {
             <div className='lobby-new'>MAKE A NEW GAME</div>
             <div className='lobby-container'>
                 {roomList.map((room, index) => (
-                    <Room data={room} key={index} />
+                    <RoomInfo data={room} key={index} />
                 ))}
             </div>
         </div>

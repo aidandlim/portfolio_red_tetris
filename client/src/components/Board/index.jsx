@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import { DEFAULT_BOARD, DEFAULT_ROW, DEFAULT_COL, DEFAULT_DELAY } from '../../config';
-import { init, run, key } from '../../function';
+import { init, key } from '../../function';
 
 import Grid from '../Grid';
 
